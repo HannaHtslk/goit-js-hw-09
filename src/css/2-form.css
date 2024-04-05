@@ -1,0 +1,102 @@
+h1{
+    color: purple;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+a {
+    color: plum;
+    font-size: 16px;
+}
+
+
+.feedback-form {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 350px;
+    box-shadow: 5px 5px 5px 5px thistle;
+    
+}
+
+label {
+    color: purple;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.17;
+        letter-spacing: 0.48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+input {
+    margin-top: 10px;
+    border-radius: 4px;
+        border: 1px solid thistle;
+        outline: transparent;
+
+        padding: 11px;
+        width: 200px;
+        height: 5px;
+        background-color: transparent;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+    
+}
+
+input:hover {
+    border-color: thistle;
+}
+input:focus {
+    border-color: purple;
+}
+textarea {
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid thistle;
+    outline: transparent;
+    padding: 11px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+textarea:hover {
+    border-color: thistle
+}
+textarea:focus {
+    border-color: purple;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+        min-width: 225px;
+        height: 56px;
+        border: 2px solid thistle; 
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: rgb(239, 224, 243);
+            color: purple;
+            font-family: 'Montserrat', sans-serif;;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover {
+    background-color: thistle;
+}
+button:active {
+    background-color: plum;
+}
