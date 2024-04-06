@@ -38,6 +38,14 @@ const onFormInput = event => {
 const onFormSubmit = event => {
     event.preventDefault();
 
+    for (const element of form.elements) {
+        if (element.value.trim() === '') {    
+            alert('All fields must be filled in!')
+            return;
+        }
+        
+    }
+
     localStorage.removeItem('feedback-form-state');
     form.reset();
 }
